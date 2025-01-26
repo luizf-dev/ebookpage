@@ -40,24 +40,23 @@
   }
 
 
-    // Lista de nomes aleatórios
+    // Lista de nomes
     const names = [
-      'Ana', 'Carlos', 'Beatriz', 'Lucas', 'Mariana',
-      'João', 'Fernanda', 'Rafael', 'Camila', 'Gabriel',
-      'Isabela', 'Tiago', 'Larissa', 'Pedro', 'Sofia',
-      'Roberto', 'Juliana', 'Marcelo', 'Priscila', 'André',
-      'Renata', 'Eduardo', 'Jéssica', 'Fabiano', 'Bruna',
-      'Leandro', 'Tatiane', 'Rodrigo', 'Aline', 'Daniel',
-      'Carolina', 'Felipe', 'Vanessa', 'Diego', 'Paula',
-      'Vinícius', 'Thais', 'Gustavo', 'Letícia', 'Leonardo',
-      'Amanda', 'Murilo', 'Natália', 'Fábio', 'Elaine',
-      'Fernando', 'Catarina', 'Ricardo', 'Bianca', 'Rafaela',
-      'Henrique', 'Manuela', 'Antônio', 'Evelyn', 'Caio',
-      'Giovana', 'Samuel', 'Lívia', 'Arthur', 'Vitória',
-      'Bruno', 'Luiza', 'Matheus', 'Cecília', 'Bernardo',
-      'Clara', 'Davi', 'Helena', 'Igor', 'Alice', 'Otávio',
-      'Sophia', 'Renato', 'Marcos', 'Melissa', 'Enzo'
+      'Ana', 'Carla', 'Beatriz', 'Larissa', 'Mariana',
+      'Joana', 'Fernanda', 'Rafaela', 'Camila', 'Gabriela',
+      'Isabela', 'Tatiana', 'Paula', 'Sofia', 'Roberta',
+      'Juliana', 'Marcela', 'Priscila', 'Andressa', 'Renata',
+      'Eduarda', 'Jéssica', 'Fabiana', 'Bruna', 'Leandra',
+      'Tatiane', 'Aline', 'Daniela', 'Carolina', 'Felícia',
+      'Vanessa', 'Diana', 'Vitória', 'Thaís', 'Giovana',
+      'Letícia', 'Leonara', 'Amanda', 'Mirela', 'Natália',
+      'Flávia', 'Elaine', 'Catarina', 'Bianca', 'Henrieta',
+      'Manuela', 'Antônia', 'Evelyn', 'Caetana', 'Samanta',
+      'Lívia', 'Artêmia', 'Matilde', 'Cecília', 'Bernadete',
+      'Clara', 'Davinia', 'Helena', 'Inês', 'Alice', 'Olívia',
+      'Sophia', 'Marina', 'Melissa', 'Elisa', 'Cristina'
     ];
+
     
 
     // Função para gerar um nome aleatório
@@ -104,7 +103,7 @@
     }
 
     // Configurar o intervalo para exibir o toast a cada 40 segundos
-    setInterval(simulatePurchase, 20000);
+    setInterval(simulatePurchase, 40000);
 
     // Exibir um toast inicial imediatamente (opcional)
-    simulatePurchase();
+    //simulatePurchase();

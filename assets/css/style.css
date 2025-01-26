@@ -21,11 +21,14 @@ body {
   margin: 0 auto;
 }
 
+
+/* ----------- header -------------------*/
+
 header {
   background: linear-gradient(to bottom, #ce035f, #ed7fb0); 
   color: white;  
   text-align: center;
-  height: 450px;
+  height: 430px;
 }
 
 .header-content {
@@ -52,6 +55,8 @@ header {
   background-color: #fff;
   color: #2C3E50;
   box-shadow: 0 10px 100px #000;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 .subtitle {
@@ -60,8 +65,14 @@ header {
   color: #2C3E50;;
   background-color: #fff;
   padding: 10px;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
 
+/* ----------- header -------------------*/
+
+
+/* ----------- preco -------------------*/
 /* Preço Promocional Abaixo do Cabeçalho */
 .price-section {
   background-color: #ecf0f1;
@@ -70,7 +81,7 @@ header {
   padding-bottom: 2px;
 }
 
-.price-section span{
+.price-section span {
   font-weight: 900;
 }
 
@@ -82,16 +93,16 @@ header {
 }
 
 .discounted-price {
-  color: #ce035f; 
-  font-size: 3rem;
+  color: #ce035f;
+  font-size: 4rem;
   font-weight: 900;
-  font-family:Georgia, 'Times New Roman', Times, serif;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   text-transform: uppercase;
   letter-spacing: 3px;
   animation: pulse 1.5s ease-in-out infinite;
 }
 
-.btn{
+.btn {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -100,7 +111,7 @@ header {
   margin: 10px 0 30px 0;
 }
 
-.btn-price{
+.btn-price {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -112,11 +123,18 @@ header {
   width: 300px;
 }
 
-.btn-pulse{
+.btn-pulse {
   animation: pulse 2s ease-in-out infinite;
   width: 280px;
 }
 
+/* ----------- preco -------------------*/
+
+
+
+
+
+/* ------------descricao ----------------*/ 
 .description p{
   padding: 10px;
 }
@@ -145,11 +163,62 @@ header {
   color: #ce035f;
 }
 
-.garantia{
+.description {
+  padding: 40px 0;
+  text-align: center;
   background-color: white;
 }
 
+.description h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
 
+.description p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.description h3 {
+  font-size: 1.2rem;
+  margin-bottom: 15px;
+}
+
+.description ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.description ul li {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  padding-left: 30px;
+  position: relative;
+}
+
+.check-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  font-size: 0.8rem;
+  border-radius: 100%;
+  border: 1px solid #ce035f;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+}
+/* ------------descricao ----------------*/ 
+
+
+
+
+/* ----------- garantia -----------------*/
+.garantia{
+  background-color: white;
+}
 
 .box-garantia{
   display: flex;
@@ -173,13 +242,19 @@ header {
 }
 
 .garantia .card-garantia i{
-  font-size: 3rem;
-  color: #1A237E;
+   font-size: 3rem;
+   color: #ce035f;
 }
 
 .garantia .card-garantia small{
   font-size: 0.7rem;
 }
+/* ----------- garantia -----------------*/
+
+
+/* ------------ cronometro ---------------*/ 
+
+
 
 .container-tempo{
   display: flex;
@@ -248,70 +323,10 @@ header {
   font-weight: 900;
 }
 
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.4);
-  }
-  50% {
-    transform: scale(1.1);
-    text-shadow: 0 0 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.5);
-  }
-  100% {
-    transform: scale(1);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.4);
-  }
-}
+/* ------------ cronometro ---------------*/ 
 
-/* Seção de Descrição */
-.description {
-  padding: 40px 0;
-  text-align: center;
-  background-color: white;
-}
 
-.description h2 {
-  font-size: 2rem;
-  margin-bottom: 20px;
-}
-
-.description p {
-  font-size: 1.2rem;
-  margin-bottom: 30px;
-}
-
-.description h3 {
-  font-size: 1.2rem;
-  margin-bottom: 15px;
-}
-
-.description ul {
-  list-style: none;
-  padding: 0;
-  margin-bottom: 30px;
-}
-
-.description ul li {
-  font-size: 1.1rem;
-  margin: 10px 0;
-  padding-left: 30px;
-  position: relative;
-}
-
-.check-icon {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: absolute;
-  left: 0;
-  font-size: 0.8rem;
-  border-radius: 100%;
-  border: 1px solid #ce035f;
-  background-color: transparent;
-  width: 20px;
-  height: 20px;
-}
-
+/* ------------ compra segura -------------*/ 
 
 .compra-segura{
   display: flex;
@@ -325,9 +340,13 @@ header {
   max-width: 100%;
 }
 
+/* ------------ compra segura -------------*/ 
 
- /* Container dos toasts */
- .toast-container {
+
+/* ------------  toast de notificação ----------*/ 
+
+/* Container dos toasts */
+.toast-container {
   position: fixed;
   bottom: 20px;
   left: 2px;
@@ -367,6 +386,10 @@ header {
     font-weight: bold;
   }
 
+/* ------------  toast de notificação ----------*/ 
+
+
+/* ------------- footer -----------------------*/
 /* Rodapé */
 footer {
   background-color: #2C3E50;
@@ -386,27 +409,13 @@ footer .dev a{
   text-decoration: none;
 }
 
-   /* Animação de fade in e fade out */
-   @keyframes fadeInOut {
-    0% {
-      opacity: 0;
-      transform: translateX(100%);
-    }
-    10% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-    90% {
-      opacity: 1;
-      transform: translateX(0);
-    }
-    100% {
-      opacity: 0;
-      transform: translateX(100%);
-    }
-  }
 
-/* Responsividade */
+/* ------------- footer -----------------------*/
+
+
+
+/* --------------- RESPONSIVIDADE  768PX ------------  */
+
 @media (max-width: 768px) {
 
   .header-content {
@@ -431,6 +440,10 @@ footer .dev a{
   }
 }
 
+/* --------------- RESPONSIVIDADE  768PX ------------  */
+
+
+/* --------------- RESPONSIVIDADE  480PX ------------  */
 @media (max-width: 480px) {
 
   .header-text h1 {
@@ -466,3 +479,53 @@ footer .dev a{
     width: 300px;
   }
 }
+
+/* --------------- RESPONSIVIDADE  480PX ------------  */
+
+
+
+/*------------- animação dos botoes pulsando --------  */
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+  50% {
+    transform: scale(1.1);
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.3), 0 0 30px rgba(0, 0, 0, 0.5);
+  }
+  100% {
+    transform: scale(1);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.4);
+  }
+}
+
+/*------------- animação dos botoes pulsando -------------- */
+
+
+
+
+/* -------------- animacao dos toasts -----------*/ 
+
+   /* Animação de fade in e fade out */
+   @keyframes fadeInOut {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    10% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    90% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+    100% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+  }
+
+/* -------------- animacao dos toasts -----------*/ 
